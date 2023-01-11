@@ -24,6 +24,18 @@ const routes: Routes = [
     path: 'alert',
     loadChildren: () => import('./pages/alert/alert.module').then( m => m.AlertPageModule)
   },
+  {
+    path: 'avatar',
+    loadChildren: () => import('./pages/avatar/avatar.module').then( m => m.AvatarPageModule)
+  },
+  {
+    path: 'button',
+    loadChildren: () => import('./pages/button/button.module').then( m => m.ButtonPageModule)
+  },
+  {
+    path: 'action-sheet',
+    loadChildren: () => import('./pages/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
+  },
 ];
 
 @NgModule({

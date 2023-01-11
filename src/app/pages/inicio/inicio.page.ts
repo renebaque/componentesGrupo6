@@ -6,7 +6,7 @@ interface Componente {
   name: string;
   redirectTo: string;
 }
-
+ 
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.page.html',
